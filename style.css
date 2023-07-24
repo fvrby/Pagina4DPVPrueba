@@ -1,0 +1,59 @@
+body{
+    margin: 0em;
+}
+
+@font-face {
+    font-family: FuenteCute;
+    src: url(font/Cookiemonster-gv11.ttf);
+    font-weight: bold;
+  }
+@font-face {
+    font-family: FuenteCute2;
+    src: url(font/CuteEgg-nR9VO.ttf);
+    font-weight: bold;
+  }
+
+h1, p, footer{
+    font-family: 'Darumadrop One', cursive;
+    justify-content: center;
+    text-align: center;
+}
+
+pre{
+    text-align: center;
+}
+.cover {
+    height: 400px;
+    background-image:url(https://cdn.glitch.global/ac131eb0-2639-4df3-b8a5-10b503c569b6/cover.gif?v=1684266141646);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: darken;
+    font-family: 'Playfair Display', serif;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.navbar{
+    font-family: FuenteCute2;
+}
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+}
+
+.card-title{
+    min-height: 3rem;
+    text-align: center;
+    font-family: 'Darumadrop One', cursive;
+}
+
+.card-text{
+    min-height: 5rem; 
+    text-align: center; 
+    font-family: FuenteCute;
+}
